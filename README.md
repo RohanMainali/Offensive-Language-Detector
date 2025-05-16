@@ -16,14 +16,6 @@ This project leverages transformer-based language models (like BERT and T5) to d
 * **Suggestion Generation**: Implements `T5ForConditionalGeneration` to rewrite offensive content into non-offensive alternatives.
 * **Tokenizer**: Uses `AutoTokenizer` and `T5Tokenizer` for encoding text inputs.
 
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/yourusername/offensive-content-detector.git
-cd offensive-content-detector
-pip install -r requirements.txt
-```
-
 **Required libraries include**:
 
 * `transformers`
@@ -58,11 +50,6 @@ You may modify the dataset loading and splitting sections to fit your own format
 * Confusion matrix heatmaps
 * Optional: Suggestive rewrites of flagged content
 
-## 🖥️ Run
-
-```python
-python offensivesortafinal.py
-```
 
 Ensure you have GPU support if running large datasets.
 
